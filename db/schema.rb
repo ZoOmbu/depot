@@ -15,11 +15,11 @@ ActiveRecord::Schema.define(version: 20160220150628) do
 
   create_table "products", force: :cascade do |t|
     t.string   "title"
-    t.text     "decription"
+    t.text     "description"
     t.string   "image_url"
-    t.decimal  "price",      precision: 8, scale: 2
-    t.datetime "created_at",                         null: false
-    t.datetime "updated_at",                         null: false
+    t.decimal  "price",       precision: 8, scale: 2
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
   end
 
 end
