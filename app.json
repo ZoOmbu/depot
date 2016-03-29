@@ -1,0 +1,16 @@
+{
+  "name": "depot",
+  "description": "My First Site on RoR framework",
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/ZoOmbu/depot.git"
+    }
+  ]
+}
